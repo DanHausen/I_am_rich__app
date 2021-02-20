@@ -8,6 +8,12 @@ void main() => runApp(
             title: Text("Daniel"),
             backgroundColor: Colors.red,
           ),
+          body: Center(
+            child: Image(
+              image: NetworkImage(
+                  'https://miro.medium.com/max/11730/0*ihTZPO4iffJ8n69_'),
+            ),
+          ),
         ),
       ),
     );
