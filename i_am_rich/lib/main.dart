@@ -6,7 +6,7 @@ void main() => runApp(
           backgroundColor: Colors.blue,
           appBar: AppBar(
             title: Text("Daniel"),
-            backgroundColor: Colors.red,
+            backgroundColor: Colors.green,
           ),
           body: Center(
             child: Image(
