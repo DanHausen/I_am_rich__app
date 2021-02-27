@@ -10,8 +10,7 @@ void main() => runApp(
           ),
           body: Center(
             child: Image(
-              image: NetworkImage(
-                  'https://miro.medium.com/max/11730/0*ihTZPO4iffJ8n69_'),
+              image: AssetImage('images/diamond.png'),
             ),
           ),
         ),
