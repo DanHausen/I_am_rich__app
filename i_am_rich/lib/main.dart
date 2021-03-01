@@ -5,8 +5,9 @@ void main() => runApp(
         home: Scaffold(
           backgroundColor: Colors.blue,
           appBar: AppBar(
-            title: Text("Daniel"),
-            backgroundColor: Colors.green,
+            title: Text("Dan Hausen",
+                style: TextStyle(fontWeight: FontWeight.bold)),
+            backgroundColor: Colors.blueGrey[700],
           ),
           body: Center(
             child: Image(
@@ -14,5 +15,6 @@ void main() => runApp(
             ),
           ),
         ),
+        debugShowCheckedModeBanner: false,
       ),
     );
