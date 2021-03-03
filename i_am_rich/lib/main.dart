@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.blueGrey[700],
         appBar: AppBar(
           title:
-              Text("DAN HAUSEN", style: TextStyle(fontWeight: FontWeight.bold)),
+              Text("DAN HAUSEN teste", style: TextStyle(fontWeight: FontWeight.bold)),
           backgroundColor: Colors.black,
         ),
         body: SafeArea(
